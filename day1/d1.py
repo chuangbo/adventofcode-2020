@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from itertools import combinations
 import math
 
