@@ -4,7 +4,7 @@ def find_idx(line, last):
     start = 0
     end = last
     for c in line.strip():
-        mid = int((end - start) / 2)
+        mid = (end - start) // 2
         if c == 'F' or c == 'L':
             end = start + mid
         else:
