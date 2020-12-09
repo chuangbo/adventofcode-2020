@@ -37,7 +37,7 @@ def find_contiguous_range(expected, lst):
             if acc == expected:
                 l = lst[i:j+1]
                 return min(l) + max(l)
-            if acc > err:
+            if acc > expected:
                 break
 
 print('part2:', find_contiguous_range(err, lst))
