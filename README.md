@@ -37,3 +37,5 @@ Day       Time  Rank  Score       Time   Rank  Score
 In 2020, we started a small AOC competition within our team, and this was the first year I completed all 25 questions.
 
 Day 10 part 2 was the first tricky one.
+
+Day 15 part 2 took 78 seconds to run in python and 6 seconds in golang which is 13x faster.
